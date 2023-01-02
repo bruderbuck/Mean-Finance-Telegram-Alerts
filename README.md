@@ -12,3 +12,14 @@ To solve this problem, I decided to write a Telegram bot that monitors the funds
 > - your own telegram chat id: follow this [tutorial](https://diyusthad.com/2022/03/how-to-get-your-telegram-chat-id.html) to get it
 
 The code currently exists of two python scripts meant to run in parallel. One will send you alerts when a position is about to run out of funds. The other one handles manual updates. To use it you can text "Update" to the bot and it will give you the remaining swaps.
+
+
+> ## How to run it:
+> - clone or download this repository locally
+> - install the necessary libraries using `pip install web3 DateTime`.
+> - create a text file containing your position id: `positionID.txt`
+> - create a text file containing your telegram bot token: `token.txt`
+> - create a text file containing your chatID: `chatID.txt`
+> - run both `meanFinanceAlert.py` and `responseBot.py`
+
+
