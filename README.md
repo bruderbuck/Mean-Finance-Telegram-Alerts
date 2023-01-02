@@ -28,3 +28,6 @@ The code currently exists of two python scripts meant to run in parallel. One wi
 - run both `meanFinanceAlert.py` and `responseBot.py`
 
 
+## Run it on Raspberry Pi
+To run it on a Raspberry Pi I i used `nohup python3 ...`. It allows you to the keep the script running after you logged out of the ssh session. I run [dietpi](https://dietpi.com/) as an OS (which is fantastic btw) and there you have the option to add a custom script to the autostart. Here you can add `cd 'YOUR PATH' && nohup python3 'meanFinanceAlert.py' & cd 'YOUR PATH' && nohup python3 'responseBot.py'`
+This way the script will run at start.
