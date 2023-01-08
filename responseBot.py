@@ -3,6 +3,7 @@ import json
 import requests
 from datetime import datetime as Datetime
 import time
+import sys
 
 with open("token.txt") as file:
     token = file.read()
